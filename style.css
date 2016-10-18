@@ -1,0 +1,17 @@
+/* Styles go here */
+
+.color-red {
+  color:#ff0000;
+}
+body {
+  padding:2em;
+}
+.contenido {
+  padding:1em;
+}
+.alert {
+  margin-top:1em;
+}
+[hidden] {
+  display: none !important;
+}

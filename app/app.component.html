@@ -1,0 +1,15 @@
+<div>
+  <!-- Interpolation -->
+  <h2> {{title}}</h2>
+  <h3><b>Services in Angular 2</b></h3>
+  <!-- input for change the name in service -->
+  <label>Insert your name to change the service</label>
+  <input type="text" [(ngModel)]="textName" /><br/>
+  <label>Insert your lastName to change the service</label>
+  <input type="text" [(ngModel)]="textLastName" /><br />
+  <button class="btn btn-info" (click)="updateService()">Click for update service</button>
+  <h3>The service has this data:</h3>
+  <b>Name:</b> {{name}}<br>
+  <b>Last name:</b> {{lastName}}
+  <div class="alert alert-success" [hidden]="serviceChange"> The service has been changed with success</div>
+</div>
